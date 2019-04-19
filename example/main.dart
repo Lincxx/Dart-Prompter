@@ -1,3 +1,6 @@
+import 'package:prompter_lincxx/src/terminal.dart';
+
 void main() {
-  print('Hi there!');
+  var terminal = new Terminal();
+  terminal.printPrompt("this is really neat");
 }
